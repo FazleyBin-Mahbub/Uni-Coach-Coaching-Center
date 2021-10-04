@@ -5,8 +5,10 @@ const About = () => {
   return (
     <div className="text-center pt-5 mt-5">
       <div className="about-sec">
+        {/* about us heading  */}
         <h2 className="fw-bolder ">About Us</h2>
       </div>
+      {/* elemenetor container  */}
       <div className="elemenetor-container">
         <div className="col-6">
           <img src={aboutImg} alt="" />
@@ -14,6 +16,7 @@ const About = () => {
         <div className="col-6">
           <span className="about-us-title fw-bolder">About us</span>
           <h1 className="fw-bolder pt-4">
+            {/* about us content  */}
             We Help People Who has Lost in the Life Cycle
           </h1>
           <p className="text-muted">
@@ -22,6 +25,7 @@ const About = () => {
             All the tools we will use, you will be able to apply later in life,
             without necessarily turning to the coach every time.
           </p>
+          {/* contact us button  */}
           <button className="about-contact-btn fw-bolder">Contact Us</button>
         </div>
       </div>

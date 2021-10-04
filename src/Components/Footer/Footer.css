@@ -1,3 +1,4 @@
+/* footer  */
 .footer {
   display: flex;
   flex-direction: column;
@@ -6,6 +7,7 @@
   background-color: #1e2845;
   color: white;
 }
+/* footer logo  */
 
 .footer-logo {
   display: flex;
@@ -61,7 +63,7 @@
   flex-direction: row;
   align-items: center;
 }
-
+/* footer separator horizontal line  */
 .footer-seperator {
   flex-grow: 1;
   border: none;

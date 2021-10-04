@@ -1,3 +1,5 @@
+/* about section  */
+
 .about-sec {
   background-image: url("../../images/about-bg.jpg");
   height: 45vh;
@@ -5,6 +7,7 @@
   align-items: center;
   justify-content: center;
 }
+/* about us track  */
 .about-us-title {
   background-color: white;
   text-transform: uppercase;
@@ -16,6 +19,7 @@
   border-radius: 20px 20px 20px 20px;
   box-shadow: 5px 4px 13px 0px rgb(46 63 99 / 15%);
 }
+/* about us elemenetor-container */
 .elemenetor-container {
   display: flex;
   align-items: center;
@@ -23,15 +27,17 @@
   margin-top: 20px;
   margin-left: 30px;
 }
+/* about us elemenetor-container image */
 .elemenetor-container img {
   width: 80%;
   border-radius: 20px;
 }
-
+/* about us elemenetor-container image */
 .elemenetor-container p {
   width: 80%;
   line-height: 26px;
 }
+/* about section contact us button  */
 .about-contact-btn {
   border: none;
   background-color: #4a81f8;

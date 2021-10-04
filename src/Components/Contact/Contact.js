@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <div>
       <div className="contact-sec">
+        {/* contact us heading  */}
         <h2 className="fw-bolder ">Contact Us</h2>
       </div>
       <div className="contact-container">
@@ -19,6 +20,7 @@ const Contact = () => {
             Your email address will not be published. Required fields are marked
             *
           </p>
+          {/* contact us form  */}
           <Form className="contact-form">
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Your Email</Form.Label>
@@ -36,6 +38,7 @@ const Contact = () => {
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
+          {/* get in touch button  */}
           <button className="contact-btn fw-bolder">Get In Touch</button>
         </div>
       </div>

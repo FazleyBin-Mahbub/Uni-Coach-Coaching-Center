@@ -9,6 +9,10 @@ const Header = () => {
     color: "black",
     font: "montserrat",
     fontSize: "20px",
+    "&:hover": {
+      color: "red",
+      fontWeight: "bolder",
+    },
   };
   return (
     <Navbar bg="light" className="p-2" fixed="top">
