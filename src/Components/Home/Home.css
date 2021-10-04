@@ -1,15 +1,21 @@
 /* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+div {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
 .home {
   display: flex;
-  font-family: "Montserrat", sans-serif;
   text-align: start;
   align-items: center;
   background-color: #f1f8fb;
   margin-bottom: 100px;
+  margin-top: 60px;
+  padding-bottom: 20px;
 }
 .home-text {
-  font-size: 60px;
+  font-size: 50px;
   margin-left: 50px;
 }
 .home-span {
@@ -30,4 +36,12 @@
 
 .home-btn {
   margin-left: 50px;
+}
+
+.explore {
+  background-color: #28314b;
+  padding-top: 50px;
+}
+.homepage-serviceCard {
+  text-align: start;
 }

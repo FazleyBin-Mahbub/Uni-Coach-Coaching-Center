@@ -1,0 +1,15 @@
+.service-card {
+  margin-left: 90px;
+  text-align: start;
+}
+.course-img {
+  width: 100%;
+}
+.about-course {
+  text-align: start;
+  padding-top: 80px;
+}
+.course-desc {
+  width: 80%;
+  line-height: 25px;
+}

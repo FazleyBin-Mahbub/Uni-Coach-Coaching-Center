@@ -1,14 +1,13 @@
 import React from "react";
 import "./NotFound.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
+import image from "../../images/404.png";
 const NotFound = () => {
   return (
-    <div className="text-center mt-5 not-found">
-      <FontAwesomeIcon className="not-found-icon" icon={faExclamationTriangle} />
-      <h1 className="pt-2">404</h1>
+    <div className="text-center not-found">
+      <img className="" src={image} alt="" />
+      <h1 className="pt-2">Sorry We Can't Find That Page!</h1>
       <br />
-      <p className="ps-2">Page Not Found</p>
+      <p className="ps-2 text-muted">The page you are looking for was moved, removed, renamed or never existed.</p>
     </div>
   );
 };

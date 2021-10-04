@@ -1,0 +1,32 @@
+.course-tag {
+  position: absolute;
+  bottom: 280px;
+  background-color: #66cfa9;
+  padding: 4px 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.course-name {
+  font-size: 25px;
+}
+
+.course-fee {
+  position: absolute;
+  bottom: 350px;
+  right: 0;
+  padding: 8px 8px 8px 8px;
+  margin: 30px 30px 0px 0px;
+  color: #4b83fc;
+  background: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  min-width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 30px;
+}

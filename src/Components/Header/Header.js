@@ -11,7 +11,7 @@ const Header = () => {
     fontSize: "20px",
   };
   return (
-    <Navbar bg="light" className="p-3" fixed="top">
+    <Navbar bg="light" className="p-2" fixed="top">
       <Container>
         <div>
           <img className="w-50 img-fluid" src={img} alt="" />
