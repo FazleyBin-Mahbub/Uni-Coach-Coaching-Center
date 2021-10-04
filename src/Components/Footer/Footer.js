@@ -10,29 +10,28 @@ const Footer = () => {
       </div>
       <section className="footer-info">
         <section className="footer-info-left">
-          <section className="footer-info__name">UniCoach</section>
-          <section className="footer-info__returns">
+          <h1 className="footer-info__name">UniCoach</h1>
+          <h6 className="footer-info__returns">
             Returns Policy
             <br />
             Delivery
-          </section>
+          </h6>
         </section>
         <section className="footer-info-center">
-          <section className="footer-info__email">
-            unicoach.info@gmail.com
-          </section>
-          <section className="footer-info__terms">Terms and Conditions</section>
+          <h5 className="footer-info__email">unicoach.info@gmail.com</h5>
+          <h6 className="footer-info__terms">Terms and Conditions</h6>
         </section>
         <section className="footer-info-right">
-          <section className="footer-info__number">+8801307767187</section>
-          <section className="footer-info__contact">
+          <h5 className="footer-info__number">+8801307767187</h5>
+          <h6 className="footer-info__contact">
             Success Story
             <br />
             Contact Us
-          </section>
+          </h6>
         </section>
       </section>
       <hr className="footer-seperator" />
+      <p> Copyright &copy; Uni-Coach 2021</p>
     </section>
   );
 };
