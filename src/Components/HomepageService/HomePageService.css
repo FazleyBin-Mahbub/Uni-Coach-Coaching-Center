@@ -1,6 +1,6 @@
 .service-tag {
   position: absolute;
-  bottom: 210px;
+  bottom: 240px;
   background-color: #66cfa9;
   padding: 4px 20px;
   border-radius: 20px;
@@ -25,7 +25,7 @@
 .course-price {
   position: absolute;
   bottom: 550px;
-  left: 480px;
+  left: 10;
   padding: 8px 8px 8px 8px;
   margin: 30px 30px 0px 0px;
   color: #4b83fc;
