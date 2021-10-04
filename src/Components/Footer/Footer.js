@@ -31,7 +31,7 @@ const Footer = () => {
         </section>
       </section>
       <hr className="footer-seperator" />
-      <p> Copyright &copy; Uni-Coach 2021</p>
+      <p> Copyright &copy; Uni-Coach 2021 @Fazley Bin Mahbub</p>
     </section>
   );
 };
