@@ -20,7 +20,7 @@ const Home = () => {
       <div className="home">
         <div className="col-6 ">
           <h1 className="fw-bolder home-text">
-            We Teach You <br />{" "}
+            We Teach You <br />
             <span className="home-span">TakeLife Control</span>
           </h1>
           <p className="home-para">

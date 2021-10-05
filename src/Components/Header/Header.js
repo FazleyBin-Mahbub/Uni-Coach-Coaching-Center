@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../images/logo-B.png";
 import { Container, Nav, Navbar, Stack } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
-import "./Header.css";
+
 const Header = () => {
   const navStyle = {
     textDecoration: "none",
@@ -20,6 +20,7 @@ const Header = () => {
           </Link>
         </div>
       </Container>
+      {/* navbar links  */}
       <Nav className="me-5 m-2">
         <Stack direction="horizontal" gap={5}>
           <NavLink style={navStyle} to="/home">
