@@ -6,7 +6,7 @@ const About = () => {
     <div className="text-center">
       <div className="about-sec">
         {/* about us heading  */}
-        <h2 className="fw-bolder ">About Us</h2>
+        <h2 className="fw-bolder">About Us</h2>
       </div>
       {/* elemenetor container  */}
       <div className="elemenetor-container">
