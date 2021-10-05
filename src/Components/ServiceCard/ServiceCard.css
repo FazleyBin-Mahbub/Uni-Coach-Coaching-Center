@@ -1,11 +1,12 @@
 .course-tag {
   position: absolute;
-  bottom: 200px;
+  bottom: 290px;
   background-color: #66cfa9;
   padding: 4px 20px;
   border-radius: 20px;
   text-align: center;
   color: white;
+
   font-weight: bolder;
 }
 .course-tag::before {

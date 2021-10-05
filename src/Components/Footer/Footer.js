@@ -1,12 +1,15 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../images/logo-B.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <section className="footer">
       <hr className="footer-seperator" />
       <div className="footer-logo">
-        <img src={logo} alt="" />
+        <Link to="/home">
+          <img src={logo} alt="" />
+        </Link>
       </div>
       <section className="footer-info">
         <section className="footer-info-left">
