@@ -1,0 +1,7 @@
+.blogs {
+  background-image: url("../../images/contact-1.jpg");
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

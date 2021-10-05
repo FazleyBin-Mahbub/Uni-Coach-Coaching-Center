@@ -50,6 +50,9 @@ const Home = () => {
         </div>
       </div>
       {/* services end  */}
+      <button className="service-load fw-bolder" to="/services">
+        <a href="/services">Load More</a>
+      </button>
     </div>
   );
 };

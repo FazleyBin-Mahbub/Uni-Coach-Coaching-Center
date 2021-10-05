@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
+import Blog from "./Components/Blog/Blog";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -34,6 +35,10 @@ function App() {
           {/* contact route  */}
           <Route exact path="/contact">
             <Contact></Contact>
+          </Route>
+          {/* blog route  */}
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           {/* if no page found  */}
           <Route path="*">

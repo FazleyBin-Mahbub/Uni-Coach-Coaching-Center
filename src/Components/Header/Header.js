@@ -8,11 +8,7 @@ const Header = () => {
     textDecoration: "none",
     color: "black",
     font: "montserrat",
-    fontSize: "20px",
-    "&:hover": {
-      color: "red",
-      fontWeight: "bolder",
-    },
+    fontSize: "17px",
   };
   return (
     <Navbar bg="light" className="p-2" fixed="top">
@@ -21,7 +17,7 @@ const Header = () => {
           <img className="w-50 img-fluid" src={img} alt="" />
         </div>
       </Container>
-      <Nav className="me-5 m-2 nav">
+      <Nav className="me-5 m-2">
         <Stack direction="horizontal" gap={5}>
           <NavLink style={navStyle} to="/home">
             Home
@@ -30,10 +26,13 @@ const Header = () => {
             Services
           </NavLink>
           <NavLink style={navStyle} to="/about">
-            About{" "}
+            About
           </NavLink>
           <NavLink style={navStyle} to="/contact">
             Contact
+          </NavLink>
+          <NavLink style={navStyle} to="/blog">
+            Blog
           </NavLink>
         </Stack>
       </Nav>
