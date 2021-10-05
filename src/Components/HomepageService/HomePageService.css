@@ -8,6 +8,9 @@
   color: white;
   font-weight: bolder;
 }
+.homepage-service-card {
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+}
 .service-tag::before {
   content: "";
   display: inline-block;

@@ -5,7 +5,7 @@ const BlogCard = (props) => {
   const { name, tag, instructor, comments, date, img } = props.blog;
   return (
     <Col>
-      <Card>
+      <Card className="blog-card">
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <p className="text-start blog-tag-instructor">

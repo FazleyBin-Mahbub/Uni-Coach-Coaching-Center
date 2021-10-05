@@ -5,7 +5,7 @@ const HomePageService = (props) => {
   const { img, name, desc, instructor, tag, price } = props.service;
   return (
     <Col>
-      <Card>
+      <Card className="homepage-service-card">
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Text className="service-tag"> {tag}</Card.Text>

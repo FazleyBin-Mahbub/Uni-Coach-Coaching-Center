@@ -7,7 +7,7 @@ const ServiceCard = (props) => {
   return (
     <div>
       <Col>
-        <Card>
+        <Card className="card">
           <Card.Img variant="top" src={img} />
           <Card.Body>
             <Card.Text className="course-tag"> {tag}</Card.Text>

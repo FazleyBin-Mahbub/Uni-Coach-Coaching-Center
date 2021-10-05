@@ -9,6 +9,9 @@
 
   font-weight: bolder;
 }
+.card {
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+}
 .course-tag::before {
   content: "";
   display: inline-block;
