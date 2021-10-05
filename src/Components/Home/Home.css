@@ -49,7 +49,6 @@ div {
 .service-load {
   border: none;
 
-  margin-top: 20px;
   padding: 14px 28px;
   background-color: #4b83fc;
 
@@ -57,7 +56,7 @@ div {
   border-radius: 5px;
   box-shadow: 5px 4px 13px 0 rgba(75, 131, 252);
 }
-.service-load a {
+.service-load {
   text-decoration: none;
   color: white;
 }

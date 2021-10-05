@@ -7,6 +7,7 @@ import { Row } from "react-bootstrap";
 import { useState } from "react";
 import { useEffect } from "react";
 import HomePageService from "../HomepageService/HomePageService";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [homepageService, setHomepageService] = useState([]);
@@ -50,9 +51,11 @@ const Home = () => {
         </div>
       </div>
       {/* services end  */}
-      <button className="service-load fw-bolder" to="/services">
-        <a href="/services">Load More</a>
-      </button>
+      <div className="mt-4">
+        <NavLink to="/services" className="service-load fw-bolder">
+          Load More...
+        </NavLink>
+      </div>
     </div>
   );
 };
