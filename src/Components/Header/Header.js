@@ -1,20 +1,23 @@
 import React from "react";
 import img from "../../images/logo-B.png";
 import { Container, Nav, Navbar, Stack } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   const navStyle = {
     textDecoration: "none",
-    color: "black",
+    color: "#4b83fc",
     font: "montserrat",
     fontSize: "17px",
+    fontWeight: "bolder",
   };
   return (
     <Navbar bg="light" className="p-2" fixed="top">
       <Container>
         <div>
-          <img className="w-50 img-fluid" src={img} alt="" />
+          <Link to="/home">
+            <img className="w-50 img-fluid" src={img} alt="" />
+          </Link>
         </div>
       </Container>
       <Nav className="me-5 m-2">

@@ -44,7 +44,7 @@ const Home = () => {
         <div className="homepage-serviceCard container">
           <Row xs={1} md={2} className="g-4">
             {homepageService.map((service) => (
-              <HomePageService key={homepageService.id} service={service} />
+              <HomePageService key={service.id} service={service} />
             ))}
           </Row>
         </div>

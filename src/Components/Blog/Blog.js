@@ -20,7 +20,7 @@ const Blog = () => {
         {
           <Row xs={1} md={2} className="g-4">
             {blogs.map((blog) => (
-              <BlogCard blog={blog}></BlogCard>
+              <BlogCard key={blog.id} blog={blog}></BlogCard>
             ))}
           </Row>
         }

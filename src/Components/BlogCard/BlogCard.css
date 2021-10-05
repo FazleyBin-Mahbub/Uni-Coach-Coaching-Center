@@ -1,7 +1,62 @@
 .blog-tag-instructor {
   font-size: 12px;
 }
-.blog-date a {
+.blog-date {
   background-color: white;
-  text-align: start;
+  display: flex;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 150px;
+  color: #356be0;
+  font-weight: 900;
+  padding: 20px 5px;
+}
+
+.learn-more {
+  margin-left: 10px;
+  color: #5b8efc;
+  margin-bottom: 20px;
+}
+
+.blog-tag {
+  color: #4fd799;
+  text-transform: uppercase;
+}
+
+.blog-tag::after {
+  content: "";
+  display: inline-block;
+  background: #4fd799;
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  margin-left: 7px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+
+.blog-instructor {
+  text-decoration: underline;
+  color: gray;
+  font-weight: 900;
+  padding-left: 5px;
+  font-size: 13px;
+}
+
+.comments {
+  text-transform: uppercase;
+  margin-left: 14px;
+  color: gray;
+  font-weight: 900;
+}
+.comments::before {
+  content: "";
+  display: inline-block;
+  background: #4fd799;
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  margin-right: 7px;
+  margin-bottom: 2px;
+  vertical-align: middle;
 }

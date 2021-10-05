@@ -11,11 +11,8 @@ const Footer = () => {
       <section className="footer-info">
         <section className="footer-info-left">
           <h1 className="footer-info__name">UniCoach</h1>
-          <h6 className="footer-info__returns">
-            Returns Policy
-            <br />
-            Delivery
-          </h6>
+          <p className="text-start">Your Coaching Partner</p>
+          <h6 className="footer-info__returns">Returns Policy</h6>
         </section>
         <section className="footer-info-center">
           <h5 className="footer-info__email">unicoach.info@gmail.com</h5>

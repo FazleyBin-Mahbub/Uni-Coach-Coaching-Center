@@ -3,7 +3,7 @@ import "./About.css";
 import aboutImg from "../../images/about-me_01.jpg";
 const About = () => {
   return (
-    <div className="text-center pt-5 mt-5">
+    <div className="text-center">
       <div className="about-sec">
         {/* about us heading  */}
         <h2 className="fw-bolder ">About Us</h2>
