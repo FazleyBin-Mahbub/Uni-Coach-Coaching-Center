@@ -65,15 +65,3 @@
   background-color: black;
   width: 100%;
 }
-
-.footer-name {
-  display: flex;
-  justify-content: center;
-}
-
-.footer-bottom__name {
-  text-transform: uppercase;
-
-  font-size: large;
-  margin: 0px 20px;
-}
