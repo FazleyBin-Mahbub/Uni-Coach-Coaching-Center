@@ -53,13 +53,12 @@ div {
   background-color: #4b83fc;
 
   font-size: 19px;
+  text-decoration: none;
+  color: white;
   border-radius: 5px;
   box-shadow: 5px 4px 13px 0 rgba(75, 131, 252);
 }
-.service-load {
-  text-decoration: none;
-  color: white;
-}
+
 .service-load:hover {
   background-color: #66cfa9;
   transition: 0.5s;
