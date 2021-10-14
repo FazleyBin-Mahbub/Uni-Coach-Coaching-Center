@@ -1,6 +1,6 @@
 .service-tag {
   position: absolute;
-  bottom: 240px;
+  bottom: 280px;
   background-color: #66cfa9;
   padding: 4px 20px;
   border-radius: 20px;
@@ -28,7 +28,7 @@
 .course-price {
   position: absolute;
   bottom: 550px;
-  left: 10;
+  left: 10px;
   padding: 8px 8px 8px 8px;
   margin: 30px 30px 0px 0px;
   color: #4b83fc;
@@ -41,4 +41,19 @@
   align-items: center;
   display: flex;
   border-radius: 30px;
+}
+
+.enroll-btn {
+  border: none;
+  background-color: #4b83fc;
+  padding: 12px;
+  color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 5px 4px 13px 0 rgba(75, 131, 252);
+}
+
+.enroll-btn:focus {
+  background-color: #66cfa9;
+  transition: 0.5s;
+  color: white;
 }

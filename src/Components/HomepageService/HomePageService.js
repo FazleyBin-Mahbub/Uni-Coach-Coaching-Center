@@ -21,6 +21,7 @@ const HomePageService = (props) => {
               <span>$</span>
               {price}
             </Card.Text>
+            <button className="enroll-btn fw-bolder">Enroll Now</button>
           </div>
         </Card.Body>
       </Card>

@@ -1,6 +1,6 @@
 .course-tag {
   position: absolute;
-  bottom: 290px;
+  bottom: 350px;
   background-color: #66cfa9;
   padding: 4px 20px;
   border-radius: 20px;
@@ -29,7 +29,7 @@
 
 .course-fee {
   position: absolute;
-  bottom: 360px;
+  bottom: 370px;
   right: 0;
   padding: 8px 8px 8px 8px;
   margin: 30px 30px 0px 0px;

@@ -12,7 +12,9 @@ const ServiceCard = (props) => {
           <Card.Body>
             <Card.Text className="course-tag"> {tag}</Card.Text>
             <div className="mt-4">
-              <Card.Title className="text-black fw-bolder course-name">{name}</Card.Title>
+              <Card.Title className="text-black fw-bolder course-name">
+                {name}
+              </Card.Title>
               <Card.Text className="text-muted">{desc}</Card.Text>
               <Card.Text className="text-muted fw-bolder">
                 by {instructor}
@@ -21,6 +23,7 @@ const ServiceCard = (props) => {
                 <span>$</span>
                 {price}
               </Card.Text>
+              <button className="enroll-btn fw-bolder">Enroll Now</button>
             </div>
           </Card.Body>
         </Card>
