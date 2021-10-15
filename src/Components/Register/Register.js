@@ -3,10 +3,12 @@ import { Form, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./Register.css";
 const Register = () => {
+  // registration
+  const handleRegistration = () => {};
   return (
     <div className="mt-5 pt-5">
       <h3>Please Register</h3>
-      <Form className="register-form">
+      <Form onSubmit={handleRegistration} className="register-form">
         <Form.Control
           className="mb-3"
           type="email"
@@ -30,7 +32,9 @@ const Register = () => {
           Register
         </Button>
       </Form>
-      <NavLink to="/login">Already Registered?</NavLink>
+      <div className="mt-4">
+        <NavLink to="/login">Already Registered?</NavLink>
+      </div>
     </div>
   );
 };

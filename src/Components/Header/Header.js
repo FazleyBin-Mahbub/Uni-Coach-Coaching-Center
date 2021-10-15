@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Header.css";
 import img from "../../images/logo-B.png";
 import { Container, Nav, Navbar, Stack, Button } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
@@ -11,7 +11,7 @@ const Header = () => {
     color: "#4b83fc",
     font: "montserrat",
     fontSize: "17px",
-    fontWeight: "bolder",
+    fontWeight: "bold",
   };
   const { user, logout } = useAuth();
   return (
@@ -26,9 +26,11 @@ const Header = () => {
       {/* navbar links  */}
       <Nav className="me-5 m-2">
         <Stack direction="horizontal" gap={4}>
-          <NavLink style={navStyle} to="/home">
-            Home
-          </NavLink>
+          <div className="home-btn">
+            <NavLink style={navStyle} to="/home">
+              Home
+            </NavLink>
+          </div>
           <NavLink style={navStyle} to="/services">
             Services
           </NavLink>

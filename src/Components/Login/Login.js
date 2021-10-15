@@ -1,14 +1,16 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import "./Login.css";
+import { faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Login = () => {
-  const { signInWithGoogle, user } = useAuth();
+  const { signInWithGoogle } = useAuth();
   return (
     <div className="mt-5 pt-5 ">
       <h4>Please Login</h4>
-      <Form className="login-form ">
+      <Form onSubmit="" className="login-form ">
         <Form.Group className="mb-3" controlId="formGroupEmail">
           <Form.Control type="email" placeholder="Enter email" required />
         </Form.Group>
@@ -16,35 +18,21 @@ const Login = () => {
           <Form.Control type="password" placeholder="Password" required />
         </Form.Group>
       </Form>
-      <div>
-        Name: <strong>{user.displayName}</strong>
+
+      <button className="login-btn fw-bolder">Login</button>
+      <br />
+      <div className="mt-3">
+        <span className="google-icon" onClick={signInWithGoogle}>
+          <FontAwesomeIcon icon={faGoogle} />
+        </span>
+
+        <span className="fb-icon">
+          <FontAwesomeIcon icon={faFacebook} />
+        </span>
       </div>
-      <Button className="mt-3" variant="primary" type="submit">
-        Login
-      </Button>
-      <br />
-      <Button
-        onClick={signInWithGoogle}
-        className="ms-3 mt-3"
-        variant="primary"
-        type="submit"
-      >
-        Google
-      </Button>
-
-      <Button className="ms-3 mt-3" variant="primary" type="submit">
-        Facebook
-      </Button>
 
       <br />
-      <NavLink
-        style={{
-          marginTop: "10px",
-        }}
-        to="/register"
-      >
-        New User?
-      </NavLink>
+      <NavLink to="/register">New User?</NavLink>
     </div>
   );
 };

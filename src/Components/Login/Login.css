@@ -1,3 +1,29 @@
 .login-form {
- margin: 0 370px;
+  margin: 0 370px;
+}
+
+.login-btn {
+  border: none;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+  background: #4b83fc;
+  border-radius: 5px;
+}
+
+.login-btn:focus {
+  background-color: #66cfa9;
+  transition: 0.5s;
+  color: white;
+}
+.google-icon {
+  color: blue;
+  font-size: 30px;
+}
+
+.fb-icon {
+  color: #3b5998;
+  font-size: 30px;
+  margin-left: 40px;
 }
