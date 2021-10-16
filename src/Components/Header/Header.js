@@ -34,9 +34,7 @@ const Header = () => {
           <NavLink style={navStyle} to="/services">
             Services
           </NavLink>
-          <NavLink style={navStyle} to="/coursepurchase">
-            Purchase
-          </NavLink>
+
           <NavLink style={navStyle} to="/about">
             About
           </NavLink>
@@ -46,17 +44,15 @@ const Header = () => {
           <NavLink style={navStyle} to="/blog">
             Blog
           </NavLink>
-          <NavLink style={navStyle} to="/register">
-            Register
-          </NavLink>
-          <NavLink style={navStyle} to="/login">
-            Login
-          </NavLink>
 
-          {user?.email && (
+          {user.email ? (
             <Button onClick={logout} variant="danger">
               LogOut
             </Button>
+          ) : (
+            <NavLink style={navStyle} to="/login">
+              Login
+            </NavLink>
           )}
         </Stack>
       </Nav>

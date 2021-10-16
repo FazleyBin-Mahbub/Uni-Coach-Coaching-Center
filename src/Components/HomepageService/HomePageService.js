@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "./HomePageService.css";
 const HomePageService = (props) => {
   const { img, name, desc, instructor, tag, price } = props.service;
@@ -21,7 +22,9 @@ const HomePageService = (props) => {
               <span>$</span>
               {price}
             </Card.Text>
-            <button className="enroll-btn fw-bolder">Enroll Now</button>
+            <NavLink to="/purchase">
+              <button className="enroll-btn fw-bolder">Enroll Now</button>
+            </NavLink>
           </div>
         </Card.Body>
       </Card>

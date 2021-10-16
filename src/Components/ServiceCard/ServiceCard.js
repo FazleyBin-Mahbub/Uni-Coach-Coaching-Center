@@ -1,6 +1,7 @@
 import React from "react";
 import "./ServiceCard.css";
 import { Card, Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 const ServiceCard = (props) => {
   const { img, tag, name, instructor, desc, price } = props.serv;
@@ -23,7 +24,9 @@ const ServiceCard = (props) => {
                 <span>$</span>
                 {price}
               </Card.Text>
-              <button className="enroll-btn fw-bolder">Enroll Now</button>
+              <NavLink to="/purchase">
+                <button className="enroll-btn fw-bolder">Enroll Now</button>
+              </NavLink>
             </div>
           </Card.Body>
         </Card>

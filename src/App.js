@@ -35,7 +35,7 @@ function App() {
               <Services></Services>
             </Route>
             {/* purchase course page  */}
-            <PrivateRoute exact path="/coursepurchase">
+            <PrivateRoute exact path="/purchase">
               <CoursePurchase></CoursePurchase>
             </PrivateRoute>
             {/* about route  */}

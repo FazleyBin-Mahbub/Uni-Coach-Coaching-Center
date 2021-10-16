@@ -18,7 +18,7 @@
   color: white;
 }
 .google-icon {
-  color: blue;
+  color: red;
   font-size: 30px;
 }
 
@@ -26,4 +26,10 @@
   color: #3b5998;
   font-size: 30px;
   margin-left: 40px;
+}
+
+.new-reg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
