@@ -51,7 +51,7 @@ const Header = () => {
             </Button>
           ) : (
             <NavLink style={navStyle} to="/login">
-              Login
+              Login/Registration
             </NavLink>
           )}
         </Stack>

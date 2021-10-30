@@ -9,7 +9,7 @@ import ServiceCard from "../ServiceCard/ServiceCard";
 const Services = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("/all-services.json")
+    fetch("http://localhost:9000/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -21,7 +21,7 @@ const Services = () => {
         </div>
         <div className="col-8 about-course">
           <h1 className="">
-            Our{" "}
+            Our
             <span
               style={{
                 color: "#e74c3c",

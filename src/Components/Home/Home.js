@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   const [homepageService, setHomepageService] = useState([]);
   useEffect(() => {
-    fetch("./services.json")
+    fetch("http://localhost:9000/services")
       .then((res) => res.json())
       .then((data) => setHomepageService(data));
   }, []);
@@ -44,8 +44,8 @@ const Home = () => {
         </p>
         <div className="homepage-serviceCard container">
           <Row xs={1} md={2} className="g-4">
-            {homepageService.map((service) => (
-              <HomePageService key={service.id} service={service} />
+            {homepageService.slice(0, 4).map((service) => (
+              <HomePageService key={service._id} service={service} />
             ))}
           </Row>
         </div>

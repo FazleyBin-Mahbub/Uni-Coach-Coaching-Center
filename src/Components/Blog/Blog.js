@@ -7,7 +7,7 @@ import "./Blog.css";
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("./blogs.json")
+    fetch("http://localhost:9000/blogs")
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
@@ -20,7 +20,7 @@ const Blog = () => {
         {
           <Row xs={1} md={2} className="g-4">
             {blogs.map((blog) => (
-              <BlogCard key={blog.id} blog={blog}></BlogCard>
+              <BlogCard key={blog._id} blog={blog}></BlogCard>
             ))}
           </Row>
         }

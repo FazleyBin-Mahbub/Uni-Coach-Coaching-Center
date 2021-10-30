@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
+import AddBlogs from "./Components/AddBlogs/AddBlogs";
+import AddService from "./Components/AddService/AddService";
 import Blog from "./Components/Blog/Blog";
 import Contact from "./Components/Contact/Contact";
 import CoursePurchase from "./Components/CoursePurchase/CoursePurchase";
@@ -38,6 +40,12 @@ function App() {
             <PrivateRoute exact path="/purchase">
               <CoursePurchase></CoursePurchase>
             </PrivateRoute>
+            <Route exact path="/addService">
+              <AddService></AddService>
+            </Route>
+            <Route exact path="/addBlogs">
+              <AddBlogs></AddBlogs>
+            </Route>
             {/* about route  */}
             <Route exact path="/about">
               <About></About>
