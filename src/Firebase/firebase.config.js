@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyC96UPtE0oTA0-8a2nH18MUBM4PyHiTDzc",
-  authDomain: "uni-coach-c3942.firebaseapp.com",
-  projectId: "uni-coach-c3942",
-  storageBucket: "uni-coach-c3942.appspot.com",
-  messagingSenderId: "162532770107",
-  appId: "1:162532770107:web:55a214757c7686b702b71e",
-  measurementId: "G-WN4YQVZCCJ",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGE_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 export default firebaseConfig;
